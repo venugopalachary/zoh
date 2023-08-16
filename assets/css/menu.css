@@ -32,7 +32,7 @@
     height: 22px;
     width: 100%;
     z-index: -1;
-    background: #fbaaa9;
+    
 }
 
 .main-header .header-upper {
@@ -92,8 +92,8 @@
 .main-menu .navigation li > a:hover,
 .main-menu .navigation li.current > a,
 .main-menu .navigation li.current-menu-item > a {
-    color: #fbaaa9;
-    background: #fdeded;
+    color: #b1a065;
+   
 }
 
 .main-menu .navigation li li > a:hover,
@@ -211,6 +211,7 @@
         position: absolute;
         top: 12px;
         max-width: 165px;
+        margin-top: -10px;
     }
     .main-menu {
         width: 100%;

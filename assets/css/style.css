@@ -215,7 +215,7 @@ a.theme-btn.btn-reverse:after {
     font-size: 10px;
     font-family: Flaticon;
     margin-right: 30px;
-    color: #fbaaa9;
+    color: black;
 }
 
 .list-style-one li a:hover {
@@ -302,7 +302,7 @@ a.theme-btn,
 .scroll-top,
 .theme-btn.style-four:hover,
 a.theme-btn.style-four:hover {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .color-one,
@@ -364,7 +364,7 @@ a.theme-btn.style-four {
 a.theme-btn,
 .scroll-top,
 .what-experct-content {
-    background-color: #fbaaa9;
+    background-color: #fbf5e9;
 }
 
 .theme-btn:before,
@@ -377,7 +377,7 @@ a.theme-btn.style-two:before,
 .theme-btn.style-three:before,
 a.theme-btn.style-three:before,
 .price-item.style-one .theme-btn:before {
-    background-color: #e38d8c;
+    background-color: #acb490;
 }
 
 .price-item.style-two .theme-btn {
@@ -695,6 +695,7 @@ a.theme-btn.style-three:before,
 .services-section {
     position: relative;
     overflow: hidden;
+    background-color:#fbf5e9;
 }
 
 .services-section .section-title {
@@ -1509,7 +1510,7 @@ img.mfp-img {
 /***************** 19. Footer Section  **************** */
 /****************************************************** */
 .footer-section {
-    background: #fff6f6;
+    background: #fbf5e9;
     position: relative;
 }
 
@@ -1527,7 +1528,7 @@ img.mfp-img {
 /*about widget*/
 .about-widget-contact {
     border-left: 5px solid;
-    border-color: #fbaaa9;
+    border-color: #acb490;
     padding: 10px 0 10px 30px;
 }
 
@@ -1536,7 +1537,7 @@ img.mfp-img {
 }
 
 .about-widget-contact h4 a {
-    color: #fbaaa9;
+    color: black;
     font-size: 23px;
 }
 
@@ -1545,13 +1546,13 @@ img.mfp-img {
     background: #FFFFFF;
     padding: 50px 45px 50px 50px;
     border-left: 5px solid;
-    border-color: #fbaaa9;
+    border-color: #fbf5e9;
 }
 
 .subscribe-widget form input {
     width: 100%;
     color: #FFFFFF;
-    background: #fbaaa9;
+    background: #040404;
     padding: 16px 30px;
     margin-bottom: 20px;
 }
@@ -1584,7 +1585,7 @@ img.mfp-img {
     z-index: 2;
     padding: 20px 0;
     position: relative;
-    background: #ffecec;
+    background: #fbf5e9;
 }
 
 .copyright-inner {

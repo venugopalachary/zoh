@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <title>Slick Slider Image Autoplay</title>
+
+    <style>
+        body{
+    background:#ccc;
+}
+.main {
+    width: 100%;
+    display:block;
+    margin:0 auto;
+}
+.img-wish{text-align: center !important;}
+.img-wish img{width: 100%;} 
+    </style>
+</head>
+<body>
+<div class="main">
+  <div class="slider slide-show">
+    <div class="img-wish">
+        <img src="assets/images/slider1.jpg" >
+    </div>
+    <div class="img-wish">
+        <img src="assets/images/slider1.jpg" >
+    </div>
+    <div class="img-wish">
+        <img src="assets/images/slider1.jpg" >
+    </div>
+    <div class="img-wish">
+        <img src="assets/images/slider1.jpg" >
+    </div>
+   
+  </div>
+</div>
+</body>  
+    <script>
+          $('.slide-show').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false, 
+   dots: true,
+   autoplay: true,
+   autoplaySpeed: 2000
+ });
+    </script>
+</html> 
