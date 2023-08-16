@@ -64,13 +64,14 @@
 }
 
 .main-menu .navigation li.dropdown .dropdown-btn {
-    display: none;
+    display: inline-block;
     cursor: pointer;
-    margin-left: 10px;
+    font-size: 10px;
+    
 }
 
 .main-menu .navigation li.dropdown .dropdown-btn span {
-    display: block;
+    display: inline-block;
     font-size: 10px;
 }
 

@@ -28,20 +28,21 @@
  
 
     <style type="text/css">
-        
-        .title{
-
-            text-align:left;
-            color: White;
-            margin-top: -250px;
-            
-        }
-
+   
         body{
 
             background-color:#fbf5e9;
         }
 
+
+     .hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
     </style>
 
 </head>
@@ -80,11 +81,22 @@
                                     </button>
                                 </div>
 
-                                <div class="navbar-collapse collapse clearfix">
+                                  <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li class="current"><a href="index.html">Home</a></li>
+                                        <li class="current" ><a href="index.html">Home</a></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li><a href="treatments.html">Services</a></li>
+                                        <li class="dropdown">
+                                         <a href="treatments.html">Treatments</a>
+                                          <ul class="dropdown" aria-label="submenu">
+                                            <li><a href="treatments.html#skincare">Skin Care</a></li>
+                                            <li><a href="treatments.html#haircare">Hair Care</a></li>
+                                            <li><a href="treatments.html#aestheticprocedures">Aesthetic Procedures</a></li>
+                                            <li><a href="treatments.html#laserprocedures">Laser Procedures</a></li>
+                                            <li><a href="treatments.html#medicalfacials">Medical Facials</a></li>
+                                            <li><a href="treatments.html#semipermanentmakeup">Semi Permanent Makeup</a></li>
+                                          </ul>
+                                        </li>
+                                     
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
@@ -111,30 +123,28 @@
 
 
             <div class="owl-carousel owl-theme">
-              <!--   <div class="item">
+                <div class="item">
                     <img src="assets/images/sliders/aging.gif">
-                    <br>
-                    <h1  class="title">Anti Aging</h1>
 
-                </div> -->
+                </div>
                 <div class="item">
-                    <img src="assets/images/sliders/hair.jpg" >
+                    <img src="assets/images/sliders/hair.gif" >
                     
                 </div>
                 <div class="item">
-                    <img src="assets/images/sliders/aesthetic.jpg">
+                    <img src="assets/images/sliders/aestheticprocedures.gif">
                     
                 </div>
                 <div class="item">
-                    <img src="assets/images/sliders/laser.jpg" >
+                    <img src="assets/images/sliders/laser.gif" >
                     
                 </div>
                 <div class="item">
-                    <img src="assets/images/sliders/medicalfacials.jpg" >
+                    <img src="assets/images/sliders/medical.gif" >
                     
                 </div>
                 <div class="item">
-                    <img src="assets/images/sliders/spm2.jpg" >
+                    <img src="assets/images/sliders/spm.gif" >
                     
                 </div>
                
@@ -151,7 +161,7 @@
         <!--==================================================================== 
            Start About Section
        =====================================================================-->
-        <section class="about-section  rmy-100" >
+        <section class="about-section" >
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7">
@@ -164,7 +174,7 @@
                                  
                                 </div>
                          </div>
-                        <a href="#" class="theme-btn style-two">Book Appointment</a>
+                        <a href="contact.html" class="theme-btn style-two">Book Appointment</a>
                     </div>
                     <div class="col-lg-5">
                         <div class="about-content">
@@ -191,45 +201,62 @@
             <div class="container">
                 <div class="section-title text-center mb-95">
                     <h2>Services We Offer</h2>
-                    <p> "Discover Timeless Beauty" Unveil your radiance at our aesthetic haven,Where artistry meets science in perfect harmony,
-                         Elevate your confidence with personalized care,Experience a journey to exquisite transformation.</p>
+                  <!--   <p style="color:black;"> "Discover Timeless Beauty" Unveil your radiance at our aesthetic haven,Where artistry meets science in perfect harmony,
+                         Elevate your confidence with personalized care,Experience a journey to exquisite transformation.</p> -->
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <h4 style="margin-bottom:10px;text-align: center;" ><a href="services.html">Face</a></h4>
-                        <div class="service-item style-one" style="background-image: url('assets/images/services/face.jpg');height: 350px;">
-                            
-                           
-                        </div>
+                        <br>
+                        <img src="assets/images/services/face.jpg"  width="650" height="350">
+                        <br><br>
+                        <p style="color:black;font-size: 16px;">The overall goal of facial contouring is to provide the patient with a softer, more defined, and more youthful appearance.</p>
+
                    
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <h4 style="margin-bottom:10px;text-align: center;" ><a href="services.html">Hair</a></h4>
-                        <div class="service-item style-two" style="background-image: url('assets/images/services/hair.jpg');height: 350px;" >
-                            
-                            
-                        </div>
+                        <br>
+                        <img src="assets/images/services/hair.jpg" width="650" height="350" >
+                        <br><br>
+                        <p style="color:black;font-size: 16px;">Hair typically grows all over the human body. Hair can become more visible during and after puberty and men tend to have thicker, more visible body hair than women.</p>
                     </div>
+
+
+                </div>
+
+              
+              <div class="row" style="margin-top:50px;">
+                  
 
                      <div class="col-lg-6 col-md-6 col-sm-6">
                         <h4 style="margin-bottom:10px;text-align: center;" ><a href="services.html">Skin</a></h4>
-                        <div class="service-item style-two" style="background-image: url('assets/images/services/skins.jpg');height: 350px;" >
-                            
-                            
-                        </div>
+                        <br>
+                        <img src="assets/images/services/skins.jpg" width="650" height="350" >
+                         <br><br>
+                        <p style="color:black;font-size: 16px;" >Skin is the biggest organ of our body and serves many important physiological and aesthetic functions.</p>
                     </div>
                  
 
 
                    <div class="col-lg-6 col-md-6 col-sm-6">
                         <h4 style="margin-bottom:10px;text-align: center;" ><a href="services.html">Body</a></h4>
-                        <div class="service-item style-two" style="background-image: url('assets/images/services/body1.png');height: 350px;" >
-                            
-                            
-                        </div>
+                        <br>
+                        <img src="assets/images/services/body4.jpg" width="650" height="350" >
+                        <br><br>
+                        <p style="color:black;font-size: 16px;">Bodies come in all different shapes and sizes. Some of us are curvier, some of us have narrower hips or broader shoulders – we’re all a little bit different.</p>
+
+
                     </div>
 
                 </div>
+
+
+
+
+
+
+
             </div>
         
             
@@ -244,7 +271,7 @@
         <!--==================================================================== 
            Start Testimonials Section
        =====================================================================-->
-        <section class="testimonial-section bg-three py-135 rpy-95  rmb-100">
+        <section class="testimonial-section bg-three    ">
             <div class="container">
                 <div class="testimonial-wrap owl-carousel">
                     <div class="testimonial-item">
@@ -305,9 +332,8 @@
                 <img src="assets/images/testimonials/testimonial-dotted.png" alt="dotted">
             </div>
           
-            <div class="testimonial-quote">
-                <img src="assets/images/testimonials/quote.png" alt="angle">
-            </div>
+           
+
         </section>
         <!--==================================================================== 
            End Testimonials Section
@@ -316,7 +342,7 @@
         <!--==================================================================== 
                                 Start Footer Section
         =====================================================================-->
-        <footer class="footer-section pt-150 rpt-100">
+        <footer class="footer-section  " style="margin-top:100px;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">

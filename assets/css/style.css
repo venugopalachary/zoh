@@ -275,7 +275,7 @@ body,
 a:hover,
 a:focus,
 a:visited {
-    color: #787878;
+    color: #acb490;
 }
 
 h1,
@@ -356,7 +356,7 @@ a.theme-btn.style-four {
 .services-section:after,
 .service-item.style-one > i,
 .style-one .pricing-content {
-    background-color: #fff6f6;
+    background-color: #fbf5e9;
 }
 
 .bg-three,
@@ -417,12 +417,12 @@ a.theme-btn.style-three:before,
 }
 
 .bg-four {
-    background-color: #fffafa;
+    background-color: #fbf5e9;
 }
 
 .divider,
 .mission {
-    background-color: #fff2f2;
+    background-color: #fbf5e9;
 }
 
 
@@ -585,7 +585,7 @@ a.theme-btn.style-three:before,
 /****************************************************** */
 .banner-section {
     position: relative;
-    background: url(../images/banner/banner.png);
+    background: url(../images/banner/1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -621,7 +621,7 @@ a.theme-btn.style-three:before,
 }
 
 .banner-inner nav {
-    background: #fbaaa9;
+    background: #1c1b1a;
     position: absolute;
     left: 0;
     bottom: -22.5px;
@@ -1344,14 +1344,14 @@ img.mfp-img {
 .contact-info-item {
     display: flex;
     padding: 30px 40px;
-    background: #fff2f2;
+    background: #fbf5e9;
     margin-bottom: 30px;
     align-items: center;
     transition: 0.5s;
 }
 
 .contact-info-item:hover {
-    background: #fbaaa9;
+    background: #b1a065;
     color: #FFFFFF;
 }
 
@@ -1414,10 +1414,10 @@ img.mfp-img {
 
 /*contact form*/
 .contact-form-inner {
-    background: #fff6f6;
+    background: #fbf5e9;
     padding: 100px;
     border-bottom: 10px solid;
-    border-color: #fbaaa9;
+    border-color: #fbf5e9;
     transform: translateY(250px);
     margin-top: -180px;
     position: relative;
@@ -1595,6 +1595,7 @@ img.mfp-img {
 }
 
 .copyright p {
+    color: black;
     margin: 0;
 }
 
@@ -1609,4 +1610,7 @@ img.mfp-img {
     right: 0;
     bottom: 0;
 }
+
+
+
 
